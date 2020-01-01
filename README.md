@@ -1,6 +1,6 @@
 # TokDDak 프로젝트에 사용되는 Hotel, Food table record를 채우기 위한 코드들이 있는 레포지토리.  
 
-#### 버전 0.1  
+#### 버전 0.5  
 
 
 ### config  
@@ -17,14 +17,18 @@
 
 - dataOverlapChecker : 이미 RDS에 들어있는 데이터인지 아닌지 판단하는 메소드.
 
+- hotelMedianController, foodMedianController : 한 나라의 같은 등급의 호텔과 식당 대표 금액을 구하는 메소드.
+
+- reject_outliers : 위의 대표 금액을 구하는 메소드에서 사용하는 극단치 값을 제거하는 메소드.
+
 
 ### 사용 모듈  
 - pymysql (https://github.com/PyMySQL/PyMySQL)
 
 
 ### 추후 추가 예정 기능
-- price값이 없는 식당은 RDS에 추가하지 않도록 만든다.  
-- 1과 3등급에 해당되는 식당 데이터를 더 가져오도록 만든다.   
-- 자동으로 DB에 업데이트하는 기능은 추후 추가 예정. (스케쥴러)    
+[x] price값이 없는 식당은 RDS에 추가하지 않도록 만든다.  
+[x] 1과 3등급에 해당되는 식당 데이터를 더 가져오도록 만든다.   
+[ ] 자동으로 DB에 업데이트하는 기능은 추후 추가 예정. (스케쥴러)    
 
 
