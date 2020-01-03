@@ -1,4 +1,4 @@
-# TokDDak 프로젝트에 사용되는 Hotel, Food table record를 채우기 위한 코드들이 있는 레포지토리.  
+# TokDDak 프로젝트에 사용되는 Hotel, Food, Activity table record를 채우기 위한 코드들이 있는 레포지토리.
 
 #### 버전 1.0  
 
@@ -38,3 +38,10 @@
 ## 추가 제작
 
 - activity_db.ipynb : activity 더미 엑셀 파일을 db에 넣기위한 프로그램
+
+
+### DB 넣는 순서.
+- city들을 넣어준다.
+- hotel과 food를 각각 테이블에 해당 프로그램을 사용하여 넣어준다.
+- hotel과 food의 대표값을 median 테이블에 해당 프로그램을 사용하여 넣어준다.
+- activity를 activity 테이블에 해당 프로그램ㅇ르 사용하여 넣어준다.
