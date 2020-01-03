@@ -3,3 +3,4 @@ config.ini
 
 # ipynb
 .ipynb_checkpoints/
+.ipynb
