@@ -44,4 +44,4 @@
 - city들을 넣어준다.
 - hotel과 food를 각각 테이블에 해당 프로그램을 사용하여 넣어준다.
 - hotel과 food의 대표값을 median 테이블에 해당 프로그램을 사용하여 넣어준다.
-- activity를 activity 테이블에 해당 프로그램ㅇ르 사용하여 넣어준다.
+- activity를 activity 테이블에 해당 프로그램을 사용하여 넣어준다.
